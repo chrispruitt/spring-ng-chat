@@ -20,12 +20,12 @@
       </p>
     </div>
     
-    <script src="libs/sockjs/sockjs.min.js" type="text/javascript"></script>
-    <script src="libs/stomp-websocket/lib/stomp.min.js" type="text/javascript"></script>
-    <script src="libs/angular/angular.min.js"></script>
-    <script src="libs/lodash/dist/lodash.min.js"></script>
-    <script src="app/app.js" type="text/javascript"></script>
-    <script src="app/controllers.js" type="text/javascript"></script>
-    <script src="app/services.js" type="text/javascript"></script>
+    <script src="${pageContext.request.contextPath}/resources/sockjs.js" type="text/javascript"></script>
+    <script src="${pageContext.request.contextPath}/resources/stomp.js" type="text/javascript"></script>
+    <script src="${pageContext.request.contextPath}/resources/angularjs.1.4.1.min.js"></script>
+    <script src="${pageContext.request.contextPath}/resources/lodash.3.10.1.js"></script>
+    <script src="${pageContext.request.contextPath}/app/app.js" type="text/javascript"></script>
+    <script src="${pageContext.request.contextPath}/app/controllers.js" type="text/javascript"></script>
+    <script src="${pageContext.request.contextPath}/app/services.js" type="text/javascript"></script>
   </body>
 </html>
